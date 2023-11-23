@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-class Controller
+abstract class Controller
 {
     // Des méthodes ou des propriétés communes à tous les contrôleurs peuvent être définies ici
 
