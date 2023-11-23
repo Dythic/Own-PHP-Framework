@@ -8,5 +8,4 @@ return [
         'password' => 'dev',
         'dbname' => 'dev',
     ],
-    // Ajoutez d'autres configurations si nécessaire
 ];

@@ -4,9 +4,14 @@ namespace App\Controllers;
 
 class AboutController extends Controller
 {
+    /**
+     * Affiche la page "A propos"
+     * 
+     * @return void
+     */
+
     public function index()
     {
-        // Utilise des méthodes ou des propriétés du contrôleur de base si nécessaire
         $this->renderView('about', ['title' => 'A propos']);
     }
 }

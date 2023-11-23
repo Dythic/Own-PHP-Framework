@@ -1,6 +1,5 @@
 <?php
 
-// UserModel.php
 namespace App\Models;
 
 class UserModel extends Model
@@ -13,7 +12,6 @@ class UserModel extends Model
         return $stmt->fetchAll();
     }
 
-    // Ajoutez d'autres méthodes spécifiques aux utilisateurs ici
     public function save()
     {
         // Logique pour sauvegarder un nouvel utilisateur

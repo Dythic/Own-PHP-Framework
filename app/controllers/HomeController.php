@@ -4,9 +4,13 @@ namespace App\Controllers;
 
 class HomeController extends Controller
 {
+    /**
+     * Affiche la page d'accueil
+     * 
+     * @return void
+     */
     public function index()
     {
-        // Utilise des méthodes ou des propriétés du contrôleur de base si nécessaire
         $this->renderView('home', ['title' => 'Page d\'accueil']);
     }
 }
