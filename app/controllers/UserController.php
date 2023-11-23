@@ -10,7 +10,7 @@ class UserController extends Controller
     public function index()
     {
         $userModel = new UserModel();
-        $users = $userModel->getAllUsers();
+        $users = $userModel->all();
 
         // Utilisez $users dans la vue ou faites d'autres opérations
         // ...
