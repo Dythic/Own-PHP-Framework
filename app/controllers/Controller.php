@@ -17,6 +17,7 @@ abstract class Controller
 
         if (file_exists($viewPath)) {
             extract($data);
+
             ob_start();
 
             require $viewPath;

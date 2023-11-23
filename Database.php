@@ -9,7 +9,7 @@ class Database
     public static function connect()
     {
         if (!self::$connection) {
-            $config = require 'config/config.php';
+            $config = require 'config.php';
             $dsn = 'mysql:host=' . $config['database']['host'] . ';dbname=' . $config['database']['dbname'];
             $options = [
                 \PDO::ATTR_ERRMODE => \PDO::ERRMODE_EXCEPTION,

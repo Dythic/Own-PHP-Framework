@@ -11,6 +11,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $this->renderView('home', ['title' => 'Page d\'accueil']);
+        $data = ['message' => 'Bienvenue dans notre framework!'];
+        $this->renderView('home', $data);
     }
 }
